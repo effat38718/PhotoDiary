@@ -40,11 +40,12 @@
             // label1
             // 
             this.label1.AutoSize = true;
-            this.label1.Font = new System.Drawing.Font("Modern No. 20", 24F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.Location = new System.Drawing.Point(477, 72);
+            this.label1.BackColor = System.Drawing.Color.LavenderBlush;
+            this.label1.Font = new System.Drawing.Font("Segoe Script", 24F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label1.Location = new System.Drawing.Point(462, 76);
             this.label1.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(119, 41);
+            this.label1.Size = new System.Drawing.Size(147, 67);
             this.label1.TabIndex = 0;
             this.label1.Text = "Login";
             // 
@@ -92,7 +93,7 @@
             // 
             // button1
             // 
-            this.button1.BackColor = System.Drawing.Color.Aqua;
+            this.button1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(192)))), ((int)(((byte)(255)))));
             this.button1.Location = new System.Drawing.Point(484, 319);
             this.button1.Margin = new System.Windows.Forms.Padding(4);
             this.button1.Name = "button1";
@@ -119,7 +120,8 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.BackgroundImage = global::PhotoDiary1.Properties.Resources.photo_2021_04_20_04_37_111;
+            this.BackColor = System.Drawing.Color.LightSkyBlue;
+            //this.BackgroundImage = global::PhotoDiary1.Properties.Resources.photo_2021_04_20_04_37_111;
             this.ClientSize = new System.Drawing.Size(1067, 554);
             this.Controls.Add(this.linkLabel1);
             this.Controls.Add(this.button1);

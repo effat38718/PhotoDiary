@@ -52,6 +52,12 @@
     <Compile Include="Dashboard.Designer.cs">
       <DependentUpon>Dashboard.cs</DependentUpon>
     </Compile>
+    <Compile Include="Event.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Event.Designer.cs">
+      <DependentUpon>Event.cs</DependentUpon>
+    </Compile>
     <Compile Include="EventList.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -75,6 +81,9 @@
     <EmbeddedResource Include="Dashboard.resx">
       <DependentUpon>Dashboard.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="Event.resx">
+      <DependentUpon>Event.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="EventList.resx">
       <DependentUpon>EventList.cs</DependentUpon>
     </EmbeddedResource>
@@ -83,14 +92,8 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
-      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
       <SubType>Designer</SubType>
     </EmbeddedResource>
-    <Compile Include="Properties\Resources.Designer.cs">
-      <AutoGen>True</AutoGen>
-      <DependentUpon>Resources.resx</DependentUpon>
-      <DesignTime>True</DesignTime>
-    </Compile>
     <EmbeddedResource Include="RegistrationForm.resx">
       <DependentUpon>RegistrationForm.cs</DependentUpon>
     </EmbeddedResource>
@@ -108,58 +111,34 @@
     <None Include="App.config" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="Resources\9eb2d4c17ddc01a9583ccf071b02df74--journal-inspiration-journal-ideas.jpg" />
+    <None Include="Resources\photo-1415025148099-17fe74102b28.jpg" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="Resources\09coronavirus-diary-videoSixteenByNineJumbo1600.jpg" />
+    <None Include="Resources\photo-1415025148099-17fe74102b281.jpg" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="Resources\mymellowdays.png" />
+    <None Include="Resources\photo-1415025148099-17fe74102b282.jpg" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="Resources\9eb2d4c17ddc01a9583ccf071b02df74--journal-inspiration-journal-ideas1.jpg" />
+    <None Include="Resources\photo-1415025148099-17fe74102b283.jpg" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="Resources\open-notebook-with-pen-and-cup.jpg" />
+    <None Include="Resources\photo-1415025148099-17fe74102b284.jpg" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="Resources\blue-designer-diary-by-i-village-blue-designer-diary-by-i-village-wmtnlp.jpg" />
+    <None Include="Resources\photo-1415025148099-17fe74102b285.jpg" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="Resources\09coronavirus-diary-videoSixteenByNineJumbo16001.jpg" />
+    <None Include="Resources\photo-1415025148099-17fe74102b286.jpg" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="Resources\mymellowdays1.png" />
+    <None Include="Resources\hehe.jpg" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="Resources\mymellowdays2.png" />
+    <None Include="Resources\photo_2021-04-20_04-37-11 %282%29.jpg" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="Resources\09coronavirus-diary-videoSixteenByNineJumbo16002.jpg" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\photo_2021-04-20_04-37-11.jpg" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\photo_2021-04-20_04-36-36.jpg" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\photo_2021-04-20_04-36-50.jpg" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\photo_2021-04-20_04-37-111.jpg" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\photo_2021-04-20_04-36-361.jpg" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\photo_2021-04-20_04-37-01.jpg" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\photo_2021-04-20_04-36-362.jpg" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\photo_2021-04-20_04-36-363.jpg" />
+    <None Include="Resources\hehe1.jpg" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

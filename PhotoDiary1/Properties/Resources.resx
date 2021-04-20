@@ -118,23 +118,98 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
-  <data name="9eb2d4c17ddc01a9583ccf071b02df74--journal-inspiration-journal-ideas1" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\9eb2d4c17ddc01a9583ccf071b02df74--journal-inspiration-journal-ideas1.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="hehe" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\hehe.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="photo_2021-04-20_04-36-50" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\photo_2021-04-20_04-36-50.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="mymellowdays2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\mymellowdays2.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="photo_2021-04-20_04-36-364" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\photo_2021-04-20_04-36-364.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="photo-1415025148099-17fe74102b284" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\photo-1415025148099-17fe74102b284.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="09coronavirus-diary-videoSixteenByNineJumbo16001" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\09coronavirus-diary-videoSixteenByNineJumbo16001.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="photo_2021-04-20_04-36-361" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\photo_2021-04-20_04-36-361.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="photo_2021-04-20_04-37-011" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\photo_2021-04-20_04-37-011.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="9eb2d4c17ddc01a9583ccf071b02df74--journal-inspiration-journal-ideas1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\9eb2d4c17ddc01a9583ccf071b02df74--journal-inspiration-journal-ideas1.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="photo-1415025148099-17fe74102b285" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\photo-1415025148099-17fe74102b285.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="open-notebook-with-pen-and-cup" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\open-notebook-with-pen-and-cup.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="09coronavirus-diary-videoSixteenByNineJumbo1600" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\09coronavirus-diary-videoSixteenByNineJumbo1600.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="9eb2d4c17ddc01a9583ccf071b02df74--journal-inspiration-journal-ideas" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\9eb2d4c17ddc01a9583ccf071b02df74--journal-inspiration-journal-ideas.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
+  <data name="photo_2021-04-20_04-36-50" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\photo_2021-04-20_04-36-50.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="mymellowdays" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\mymellowdays.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="photo-1415025148099-17fe74102b281" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\photo-1415025148099-17fe74102b281.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="hehe1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\hehe1.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="photo_2021-04-20_04-36-363" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\photo_2021-04-20_04-36-363.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="photo-1415025148099-17fe74102b286" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\photo-1415025148099-17fe74102b286.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="mymellowdays1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\mymellowdays1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="photo-1415025148099-17fe74102b28" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\photo-1415025148099-17fe74102b28.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="photo_2021-04-20_04-37-111" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\photo_2021-04-20_04-37-111.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="photo_2021-04-20_04-36-365" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\photo_2021-04-20_04-36-365.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
   <data name="blue-designer-diary-by-i-village-blue-designer-diary-by-i-village-wmtnlp" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\blue-designer-diary-by-i-village-blue-designer-diary-by-i-village-wmtnlp.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="photo_2021-04-20_04-36-362" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\photo_2021-04-20_04-36-362.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="photo_2021-04-20_04-36-366" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\photo_2021-04-20_04-36-366.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="photo_2021-04-20_04-37-11 (2)" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\photo_2021-04-20_04-37-11 (2).jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="photo_2021-04-20_04-36-36" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\photo_2021-04-20_04-36-36.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="photo-1415025148099-17fe74102b282" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\photo-1415025148099-17fe74102b282.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="photo_2021-04-20_04-36-361" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\photo_2021-04-20_04-36-361.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="photo-1415025148099-17fe74102b283" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\photo-1415025148099-17fe74102b283.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="photo-1415025148099-17fe74102b287" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\photo-1415025148099-17fe74102b287.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="photo_2021-04-20_04-37-11" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\photo_2021-04-20_04-37-11.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="09coronavirus-diary-videoSixteenByNineJumbo16002" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\09coronavirus-diary-videoSixteenByNineJumbo16002.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -142,34 +217,7 @@
   <data name="photo_2021-04-20_04-37-01" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\photo_2021-04-20_04-37-01.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="photo_2021-04-20_04-36-362" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\photo_2021-04-20_04-36-362.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="photo_2021-04-20_04-36-36" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\photo_2021-04-20_04-36-36.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="photo_2021-04-20_04-37-111" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\photo_2021-04-20_04-37-111.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="mymellowdays" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\mymellowdays.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="open-notebook-with-pen-and-cup" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\open-notebook-with-pen-and-cup.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="mymellowdays1" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\mymellowdays1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="09coronavirus-diary-videoSixteenByNineJumbo1600" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\09coronavirus-diary-videoSixteenByNineJumbo1600.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="photo_2021-04-20_04-37-11" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\photo_2021-04-20_04-37-11.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="mymellowdays2" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\mymellowdays2.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="photo_2021-04-20_04-36-363" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\photo_2021-04-20_04-36-363.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="photo-1415025148099-17fe74102b288" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\photo-1415025148099-17fe74102b287.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
 </root>

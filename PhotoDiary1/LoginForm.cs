@@ -39,8 +39,8 @@ namespace PhotoDiary1
             if(PasswordTextBox.Text == Password)
             {
                 this.Hide();
-                EventList eventList = new EventList();
-                eventList.ShowDialog();
+                Event eventlist = new Event();
+                eventlist.ShowDialog();
             }
             else
             {
