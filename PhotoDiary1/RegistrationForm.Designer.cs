@@ -55,9 +55,9 @@ namespace PhotoDiary1
             // label1
             // 
             this.label1.AutoSize = true;
-            this.label1.BackColor = System.Drawing.Color.RoyalBlue;
+            this.label1.BackColor = System.Drawing.Color.SteelBlue;
             this.label1.Font = new System.Drawing.Font("Segoe Script", 16.2F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.Location = new System.Drawing.Point(234, 8);
+            this.label1.Location = new System.Drawing.Point(228, 19);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(293, 46);
             this.label1.TabIndex = 0;
@@ -141,7 +141,7 @@ namespace PhotoDiary1
             this.button1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(192)))), ((int)(((byte)(255)))));
             this.button1.Location = new System.Drawing.Point(324, 403);
             this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(75, 23);
+            this.button1.Size = new System.Drawing.Size(75, 32);
             this.button1.TabIndex = 9;
             this.button1.Text = "Confirm";
             this.button1.UseVisualStyleBackColor = false;
@@ -239,7 +239,7 @@ namespace PhotoDiary1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            //this.BackgroundImage = global::PhotoDiary1.Properties.Resources.photo_1415025148099_17fe74102b283;
+            this.BackgroundImage = global::PhotoDiary1.Properties.Resources.photo_1415025148099_17fe74102b2834;
             this.ClientSize = new System.Drawing.Size(799, 535);
             this.Controls.Add(this.button2);
             this.Controls.Add(this.checkBox1);

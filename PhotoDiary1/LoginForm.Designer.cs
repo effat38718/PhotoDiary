@@ -121,7 +121,7 @@
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.LightSkyBlue;
-            //this.BackgroundImage = global::PhotoDiary1.Properties.Resources.photo_2021_04_20_04_37_111;
+            this.BackgroundImage = global::PhotoDiary1.Properties.Resources.photo_2021_04_20_04_37_11__2_;
             this.ClientSize = new System.Drawing.Size(1067, 554);
             this.Controls.Add(this.linkLabel1);
             this.Controls.Add(this.button1);

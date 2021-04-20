@@ -24,13 +24,15 @@ namespace PhotoDiary1
 
         private void Upload_Click(object sender, EventArgs e)
         {
+            con.Open();
             InsertDataToDB();
             MessageBox.Show("Your Event is uploaded.", "Done");
+            con.Close();
         }
         
         private void InsertDataToDB ()
         {
-            string query = "INSERT INTO USERS(Description,Date,EventName) VALUES('" + descriptionTextBox.Text + "','" + "@Date" + ",'" + eventNameTextBox.Text + "');";
+            string query = "INSERT INTO EVENTS(Event_Description,Event_Date,Event_Name,Event_Photo_Path) VALUES('" + descriptionTextBox.Text + "'," + "@Date" + ",'" + eventNameTextBox.Text + "' ,'" + pathTextBox.Text + "');";
             cmd = new SqlCommand(query, con);
             cmd.Parameters.Add("@Date", SqlDbType.Date).Value = dateTimePicker1.Value.Date;
             cmd.ExecuteNonQuery();
@@ -41,6 +43,22 @@ namespace PhotoDiary1
             this.Hide();
             Event events = new Event();
             events.ShowDialog();
+        }
+
+        private void Button1_Click(object sender, EventArgs e)
+        {
+            OpenFileDialog opnfd = new OpenFileDialog();
+            opnfd.Filter = "Image Files (*.jpg;*.jpeg;.*.gif;)|*.jpg;*.jpeg;.*.gif";
+            if (opnfd.ShowDialog() == DialogResult.OK)
+            {
+                pictureBox1.Image = new Bitmap(opnfd.FileName);
+                pathTextBox.Text = opnfd.FileName.ToString();
+            }
+            else
+            {
+                MessageBox.Show("FILE I/O Error", "!!Error!!");
+            }
+
         }
     }
 }

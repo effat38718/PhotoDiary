@@ -78,6 +78,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.BackgroundImage = global::PhotoDiary1.Properties.Resources.photo_1415025148099_17fe74102b283;
             this.ClientSize = new System.Drawing.Size(875, 561);
             this.Controls.Add(this.button1);
             this.Controls.Add(this.deleteButton);
