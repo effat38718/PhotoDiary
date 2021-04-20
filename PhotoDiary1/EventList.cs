@@ -14,6 +14,7 @@ namespace PhotoDiary1
     public partial class EventList : Form
     {
         private SqlConnection con;
+        private SqlCommand cmd;
 
         public EventList()
         {
@@ -23,7 +24,17 @@ namespace PhotoDiary1
 
         private void DeleteButton_Click(object sender, EventArgs e)
         {
+            con.Open();
+            DeleteData();
+            MessageBox.Show("Event is Deleted");
+            con.Close();
+        }
 
+        private void DeleteData()
+        {
+            string query = "DELETE FROM EVENTS WHERE Event_ID = ('" + textBox1.Text + "');";
+            cmd = new SqlCommand(query, con);
+            cmd.ExecuteNonQuery();
         }
 
         private void Button1_Click(object sender, EventArgs e)

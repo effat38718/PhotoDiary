@@ -36,7 +36,7 @@
             // 
             // textBox1
             // 
-            this.textBox1.Location = new System.Drawing.Point(365, 467);
+            this.textBox1.Location = new System.Drawing.Point(290, 192);
             this.textBox1.Name = "textBox1";
             this.textBox1.Size = new System.Drawing.Size(183, 22);
             this.textBox1.TabIndex = 0;
@@ -46,7 +46,7 @@
             this.label1.AutoSize = true;
             this.label1.BackColor = System.Drawing.Color.White;
             this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.Location = new System.Drawing.Point(176, 468);
+            this.label1.Location = new System.Drawing.Point(128, 196);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(124, 18);
             this.label1.TabIndex = 1;
@@ -55,7 +55,7 @@
             // deleteButton
             // 
             this.deleteButton.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(192)))), ((int)(((byte)(255)))));
-            this.deleteButton.Location = new System.Drawing.Point(608, 462);
+            this.deleteButton.Location = new System.Drawing.Point(536, 192);
             this.deleteButton.Name = "deleteButton";
             this.deleteButton.Size = new System.Drawing.Size(95, 30);
             this.deleteButton.TabIndex = 2;
