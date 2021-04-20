@@ -1,4 +1,6 @@
-﻿namespace PhotoDiary1
+﻿using System;
+
+namespace PhotoDiary1
 {
     partial class RegistrationForm
     {
@@ -38,14 +40,14 @@
             this.label8 = new System.Windows.Forms.Label();
             this.label9 = new System.Windows.Forms.Label();
             this.button1 = new System.Windows.Forms.Button();
-            this.textBox1 = new System.Windows.Forms.TextBox();
-            this.textBox2 = new System.Windows.Forms.TextBox();
-            this.textBox3 = new System.Windows.Forms.TextBox();
-            this.textBox4 = new System.Windows.Forms.TextBox();
-            this.textBox5 = new System.Windows.Forms.TextBox();
+            this.NameTextBox = new System.Windows.Forms.TextBox();
+            this.UserNameTextBox = new System.Windows.Forms.TextBox();
+            this.PasswordTextBox = new System.Windows.Forms.TextBox();
+            this.ConfirmPassTextBox = new System.Windows.Forms.TextBox();
+            this.EmailTextBox = new System.Windows.Forms.TextBox();
             this.dateTimePicker1 = new System.Windows.Forms.DateTimePicker();
-            this.radioButton1 = new System.Windows.Forms.RadioButton();
-            this.radioButton2 = new System.Windows.Forms.RadioButton();
+            this.MaleRB = new System.Windows.Forms.RadioButton();
+            this.FemaleRB = new System.Windows.Forms.RadioButton();
             this.checkBox1 = new System.Windows.Forms.CheckBox();
             this.SuspendLayout();
             // 
@@ -142,43 +144,45 @@
             this.button1.TabIndex = 9;
             this.button1.Text = "Confirm";
             this.button1.UseVisualStyleBackColor = true;
+            this.button1.Click += new System.EventHandler(this.Button1_Click);
             // 
-            // textBox1
+            // NameTextBox
             // 
-            this.textBox1.Location = new System.Drawing.Point(355, 91);
-            this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(216, 22);
-            this.textBox1.TabIndex = 10;
+            this.NameTextBox.Location = new System.Drawing.Point(355, 91);
+            this.NameTextBox.Name = "NameTextBox";
+            this.NameTextBox.Size = new System.Drawing.Size(216, 22);
+            this.NameTextBox.TabIndex = 10;
+            this.NameTextBox.TextChanged += new System.EventHandler(this.TextBox1_TextChanged);
             // 
-            // textBox2
+            // UserNameTextBox
             // 
-            this.textBox2.Location = new System.Drawing.Point(355, 132);
-            this.textBox2.Name = "textBox2";
-            this.textBox2.Size = new System.Drawing.Size(216, 22);
-            this.textBox2.TabIndex = 11;
+            this.UserNameTextBox.Location = new System.Drawing.Point(355, 132);
+            this.UserNameTextBox.Name = "UserNameTextBox";
+            this.UserNameTextBox.Size = new System.Drawing.Size(216, 22);
+            this.UserNameTextBox.TabIndex = 11;
             // 
-            // textBox3
+            // PasswordTextBox
             // 
-            this.textBox3.Location = new System.Drawing.Point(355, 171);
-            this.textBox3.Name = "textBox3";
-            this.textBox3.PasswordChar = '*';
-            this.textBox3.Size = new System.Drawing.Size(216, 22);
-            this.textBox3.TabIndex = 12;
+            this.PasswordTextBox.Location = new System.Drawing.Point(355, 171);
+            this.PasswordTextBox.Name = "PasswordTextBox";
+            this.PasswordTextBox.PasswordChar = '*';
+            this.PasswordTextBox.Size = new System.Drawing.Size(216, 22);
+            this.PasswordTextBox.TabIndex = 12;
             // 
-            // textBox4
+            // ConfirmPassTextBox
             // 
-            this.textBox4.Location = new System.Drawing.Point(355, 207);
-            this.textBox4.Name = "textBox4";
-            this.textBox4.PasswordChar = '*';
-            this.textBox4.Size = new System.Drawing.Size(216, 22);
-            this.textBox4.TabIndex = 13;
+            this.ConfirmPassTextBox.Location = new System.Drawing.Point(355, 207);
+            this.ConfirmPassTextBox.Name = "ConfirmPassTextBox";
+            this.ConfirmPassTextBox.PasswordChar = '*';
+            this.ConfirmPassTextBox.Size = new System.Drawing.Size(216, 22);
+            this.ConfirmPassTextBox.TabIndex = 13;
             // 
-            // textBox5
+            // EmailTextBox
             // 
-            this.textBox5.Location = new System.Drawing.Point(355, 247);
-            this.textBox5.Name = "textBox5";
-            this.textBox5.Size = new System.Drawing.Size(216, 22);
-            this.textBox5.TabIndex = 14;
+            this.EmailTextBox.Location = new System.Drawing.Point(355, 247);
+            this.EmailTextBox.Name = "EmailTextBox";
+            this.EmailTextBox.Size = new System.Drawing.Size(216, 22);
+            this.EmailTextBox.TabIndex = 14;
             // 
             // dateTimePicker1
             // 
@@ -187,27 +191,27 @@
             this.dateTimePicker1.Size = new System.Drawing.Size(216, 22);
             this.dateTimePicker1.TabIndex = 15;
             // 
-            // radioButton1
+            // MaleRB
             // 
-            this.radioButton1.AutoSize = true;
-            this.radioButton1.Location = new System.Drawing.Point(355, 320);
-            this.radioButton1.Name = "radioButton1";
-            this.radioButton1.Size = new System.Drawing.Size(59, 21);
-            this.radioButton1.TabIndex = 16;
-            this.radioButton1.TabStop = true;
-            this.radioButton1.Text = "Male";
-            this.radioButton1.UseVisualStyleBackColor = true;
+            this.MaleRB.AutoSize = true;
+            this.MaleRB.Location = new System.Drawing.Point(355, 320);
+            this.MaleRB.Name = "MaleRB";
+            this.MaleRB.Size = new System.Drawing.Size(59, 21);
+            this.MaleRB.TabIndex = 16;
+            this.MaleRB.TabStop = true;
+            this.MaleRB.Text = "Male";
+            this.MaleRB.UseVisualStyleBackColor = true;
             // 
-            // radioButton2
+            // FemaleRB
             // 
-            this.radioButton2.AutoSize = true;
-            this.radioButton2.Location = new System.Drawing.Point(496, 320);
-            this.radioButton2.Name = "radioButton2";
-            this.radioButton2.Size = new System.Drawing.Size(75, 21);
-            this.radioButton2.TabIndex = 17;
-            this.radioButton2.TabStop = true;
-            this.radioButton2.Text = "Female";
-            this.radioButton2.UseVisualStyleBackColor = true;
+            this.FemaleRB.AutoSize = true;
+            this.FemaleRB.Location = new System.Drawing.Point(496, 320);
+            this.FemaleRB.Name = "FemaleRB";
+            this.FemaleRB.Size = new System.Drawing.Size(75, 21);
+            this.FemaleRB.TabIndex = 17;
+            this.FemaleRB.TabStop = true;
+            this.FemaleRB.Text = "Female";
+            this.FemaleRB.UseVisualStyleBackColor = true;
             // 
             // checkBox1
             // 
@@ -223,17 +227,17 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.BackgroundImage = global::PhotoDiary1.Properties.Resources.photo_2021_04_20_04_37_11;
+            this.BackgroundImage = global::PhotoDiary1.Properties.Resources.photo_2021_04_20_04_36_363;
             this.ClientSize = new System.Drawing.Size(800, 450);
             this.Controls.Add(this.checkBox1);
-            this.Controls.Add(this.radioButton2);
-            this.Controls.Add(this.radioButton1);
+            this.Controls.Add(this.FemaleRB);
+            this.Controls.Add(this.MaleRB);
             this.Controls.Add(this.dateTimePicker1);
-            this.Controls.Add(this.textBox5);
-            this.Controls.Add(this.textBox4);
-            this.Controls.Add(this.textBox3);
-            this.Controls.Add(this.textBox2);
-            this.Controls.Add(this.textBox1);
+            this.Controls.Add(this.EmailTextBox);
+            this.Controls.Add(this.ConfirmPassTextBox);
+            this.Controls.Add(this.PasswordTextBox);
+            this.Controls.Add(this.UserNameTextBox);
+            this.Controls.Add(this.NameTextBox);
             this.Controls.Add(this.button1);
             this.Controls.Add(this.label9);
             this.Controls.Add(this.label8);
@@ -251,6 +255,8 @@
 
         }
 
+        
+
         #endregion
 
         private System.Windows.Forms.Label label1;
@@ -263,14 +269,14 @@
         private System.Windows.Forms.Label label8;
         private System.Windows.Forms.Label label9;
         private System.Windows.Forms.Button button1;
-        private System.Windows.Forms.TextBox textBox1;
-        private System.Windows.Forms.TextBox textBox2;
-        private System.Windows.Forms.TextBox textBox3;
-        private System.Windows.Forms.TextBox textBox4;
-        private System.Windows.Forms.TextBox textBox5;
+        private System.Windows.Forms.TextBox NameTextBox;
+        private System.Windows.Forms.TextBox UserNameTextBox;
+        private System.Windows.Forms.TextBox PasswordTextBox;
+        private System.Windows.Forms.TextBox ConfirmPassTextBox;
+        private System.Windows.Forms.TextBox EmailTextBox;
         private System.Windows.Forms.DateTimePicker dateTimePicker1;
-        private System.Windows.Forms.RadioButton radioButton1;
-        private System.Windows.Forms.RadioButton radioButton2;
+        private System.Windows.Forms.RadioButton MaleRB;
+        private System.Windows.Forms.RadioButton FemaleRB;
         private System.Windows.Forms.CheckBox checkBox1;
     }
 }

@@ -146,5 +146,20 @@
   <ItemGroup>
     <None Include="Resources\photo_2021-04-20_04-36-50.jpg" />
   </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\photo_2021-04-20_04-37-111.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\photo_2021-04-20_04-36-361.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\photo_2021-04-20_04-37-01.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\photo_2021-04-20_04-36-362.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\photo_2021-04-20_04-36-363.jpg" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

@@ -8,3 +8,6 @@ D:\code\PhotoDiary1\PhotoDiary1\obj\Debug\PhotoDiary1.csproj.GenerateResource.ca
 D:\code\PhotoDiary1\PhotoDiary1\obj\Debug\PhotoDiary1.csproj.CoreCompileInputs.cache
 D:\code\PhotoDiary1\PhotoDiary1\obj\Debug\PhotoDiary1.exe
 D:\code\PhotoDiary1\PhotoDiary1\obj\Debug\PhotoDiary1.pdb
+D:\code\PhotoDiary1\PhotoDiary1\obj\Debug\PhotoDiary1.Dashboard.resources
+D:\code\PhotoDiary1\PhotoDiary1\obj\Debug\PhotoDiary1.EventList.resources
+D:\code\PhotoDiary1\PhotoDiary1\obj\Debug\PhotoDiary1.RegistrationForm.resources
