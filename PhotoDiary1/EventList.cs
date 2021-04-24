@@ -15,6 +15,13 @@ namespace PhotoDiary1
     {
         private SqlConnection con;
         private SqlCommand cmd;
+        private object da;
+        public SqlDataAdapter oda;
+        public DataSet ds;
+        public DataTable dt;
+        private int myindex;
+        private object myid;
+        private object fn;
 
         public EventList()
         {
@@ -42,6 +49,34 @@ namespace PhotoDiary1
             this.Hide();
             Event eventlist = new Event();
             eventlist.ShowDialog();
+        }
+
+        private void Show_Button_Click(object sender, EventArgs e)
+        {
+            string query = "SELECT * FROM EVENTS;";
+            SqlDataAdapter da = new SqlDataAdapter(query,con);
+            DataSet ds = new DataSet();
+            da.Fill(ds, "Events");
+            dataGridView1.DataSource = ds.Tables["Events"].DefaultView;
+        }
+
+        private void Update_button_Click(object sender, EventArgs e)
+        {
+            
+        }
+        
+        private void DataGridView1_CellEndEdit(object sender, DataGridViewCellEventArgs e)
+        {
+            con.Open();
+            
+
+            string eventID = dataGridView1.Rows[e.RowIndex].Cells[0].Value.ToString();
+            string ColumnName = dataGridView1.Columns[e.ColumnIndex].HeaderText;
+            string change = dataGridView1.Rows[e.RowIndex].Cells[e.ColumnIndex].Value.ToString();
+            string query = "UPDATE Events set " + ColumnName + " = '" + change + "'  WHERE Event_ID = " + eventID + "       ;";
+            MessageBox.Show(query, "Column Name");
+            cmd = new SqlCommand(query, con);
+            cmd.ExecuteNonQuery();
         }
     }
 }

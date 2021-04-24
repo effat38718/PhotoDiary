@@ -32,6 +32,7 @@ namespace PhotoDiary1
         
         private void InsertDataToDB ()
         {
+            
             string query = "INSERT INTO EVENTS(Event_Description,Event_Date,Event_Name,Event_Photo_Path) VALUES('" + descriptionTextBox.Text + "'," + "@Date" + ",'" + eventNameTextBox.Text + "' ,'" + pathTextBox.Text + "');";
             cmd = new SqlCommand(query, con);
             cmd.Parameters.Add("@Date", SqlDbType.Date).Value = dateTimePicker1.Value.Date;

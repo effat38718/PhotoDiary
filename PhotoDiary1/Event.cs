@@ -32,7 +32,9 @@ namespace PhotoDiary1
 
         private void UpdateButton_Click(object sender, EventArgs e)
         {
-            
+            this.Hide();
+            EventList events = new EventList();
+            events.ShowDialog();
         }
 
         private void DeleteButton_Click(object sender, EventArgs e)
@@ -44,20 +46,9 @@ namespace PhotoDiary1
 
         private void ShowButton_Click(object sender, EventArgs e)
         {
-            cmd = new SqlCommand("SELECT * from Events", con);
-            da = new SqlDataAdapter();
-            con.Open();
-            da.SelectCommand = cmd;
-            DataSet ds = new DataSet();
-            DataTable dt = new DataTable();
-            da.Fill(ds);
-            dt = ds.Tables[0];
-
-            foreach (DataRow dr in dt.Rows)
-            {
-                listBox1.Items.Add(dr["Event_Name"].ToString());
-            }
-            con.Close();
+            this.Hide();
+            EventList events = new EventList();
+            events.ShowDialog();
         }
 
         private void Button1_Click(object sender, EventArgs e)
